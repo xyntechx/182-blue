@@ -10,7 +10,7 @@ interface Props {
 
 const Post = ({ title, author, participation_type, content }: Props) => {
     return (
-        <div className="border p-2 rounded w-full">
+        <div className="border p-2 rounded w-full shadow-md hover:shadow-2xl transition-shadow hover:cursor-pointer">
             <h3 className="text-lg font-bold">{title}</h3>
             <div className="flex flex-row items-start justify-start gap-4">
                 <p className="text-gray-500">{author}</p>
